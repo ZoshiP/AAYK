@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+body{position:relative;padding:0;margin:0;color:#777;font:normal 14px/180% "microsoft yahei",simhei;background-color:#fff}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0}
+img{border:none;-ms-interpolation-mode:bicubic}
+dl,dt,dd{padding:0;margin:0}
+ul,li{padding:0;margin:0;list-style:none}
+em,i{font-style:normal}
+u{text-decoration:none}
+a {color:#222;text-decoration:none}
+a:hover,.two_title p a:hover{color:#0eb468;}
+
+.clear{clear:both; content:""; height:0px; font-size:0px;}
+.clearfix:after,
+.ps_line_on:after,
+.m_one:after{content:".";display:block;height:0;font-size:0;line-height:0;clear:both;visibility:hidden}
+.clearfix{display:block;zoom:1}
+.wrapper{width:100%;margin:0 auto;padding-top:44px;text-align:left}
+
+.fl{float:left}
+.fr{float:right}
+.ma{margin:0 auto}
+
+
+.header{ width: 100%; height: 100px; background: url(../images/topbj.png) repeat-x;}
+.top{ width:1170px; height:100px; padding-right: 15px;
+    padding-left: 15px; margin: auto;}
+.top_content{ width:1100px; height:auto; margin:0px auto;}
+.logo{ width:173px; height:48px; float:left; margin:20px 0px 0px 0px;}
+.top_le_nav{ float:right; line-height:48px; padding-top: 25px; vertical-align:middle; margin-left:30px;}
+.top_le_nav a{position: relative;
+    display: inline-block;
+    outline: none;
+    color: #222222;
+    text-decoration: none;
+    text-shadow: 0 0 1px rgba(255,255,255,0.3);
+    font-size: 18px;
+    margin: 0 18px;
+    padding: 0 2px 10px 2px;
+    vertical-align: middle;}
+.top_le_nav a:hover{ color: #0eb468;}
+.box{ width:1100px; margin:20px auto 0;}
+.clear{ content:""; height:0px; font-size:0px; clear:both;}
+
+.footer{ text-align: center; background: #222222;
+    padding: 20px 0px;
+    min-height: 80px;
+    color: #888888;
+    line-height: 30px;
+    padding-top: 35px;
+    font-size: 15px;}
+
+.rin img{ display: block; width: 100%; height: auto;}
+.baise_box{ width: 100%; height: 600px; background-color: #fff; }
+.public_cont{ width: 1200px; margin: auto;}
+.public_title{ width:670px ; margin: auto; color: #7fae48; font-size: 30px;  padding-top: 50px; line-height: 40px; height:60px; text-align: center; background: url(../images/titlebj.png) top center no-repeat; }
+
+
+
+.sect_us {
+    
+    background: url(../images/bg03.jpg) bottom center #fff no-repeat;
+    position: relative;
+}
+.wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article {
+    text-align: left;
+}
+.index_ .T {
+    text-align: center;
+    color: #393a45;
+    text-transform: uppercase;
+}
+.row {
+    width: 100%;
+}
+.index_ .T h2 {
+    font-size: 30px; line-height: 54px;
+    font-weight: normal;
+}
+.index_ .T h1 {
+    font-size: 60px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: -webkit-pictograph;
+    line-height: 1;
+}
+.row:after, .row:before {
+    clear: both;
+    display: table;
+    content: " ";
+}
+.span-3 {
+    float: left;
+    margin-right: 2%;
+    width: 23%;
+    transition: .2s width ease;
+}
+.span-6 {
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+    transition: .2s width ease;
+}
+.us_text {
+    padding: 1rem 0;
+    line-height: 2.5;
+    text-indent: 2em;
+}
+.sect_us{ margin-top: 10px;}
+
+
+.def{    margin-top: 80px;
+    background: #f5f5f7;
+    position: relative;}
+.act_box{ padding: 30px 0px 80px 0px;}
+.center_act h1{ font-size: 40px;}
+.center_act p{margin-top: 30px; font-size: 26px;}
+
+
+.join_us{
+    background: #fff;
+    position: relative;}
+.join_us .join_box{ margin-top: 30px; height: 300px; background: url(../images/join.png) 890px 60px no-repeat;}
